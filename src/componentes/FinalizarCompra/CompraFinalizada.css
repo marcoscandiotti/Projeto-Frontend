@@ -1,0 +1,81 @@
+.container-finalizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .card-finalizacao {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    margin: auto; 
+  }
+  
+  .texto-finalizacao {
+    margin-bottom: 30px;
+  }
+  
+  .texto-finalizacao span {
+    color: #0092e6;
+  }
+
+  .texto-finalizacao p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .icone-sucesso {
+    margin: 20px 0; 
+  }
+  
+  .icone-sucesso img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .botao-nova-compra {
+    background-color: #FFA500;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    margin-top: 30px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-nova-compra:hover {
+    background-color: #e69500;
+  }
+
+  @media only screen and (max-width: 1140px) {
+  
+    .container-finalizacao {
+      height: auto;
+      padding: 20px 0; 
+    }
+  
+    .card-finalizacao {
+      padding: 40px;
+      max-width: 600px; 
+    }
+  
+    .icone-sucesso img {
+      width: 100%;
+      max-width: 200px; 
+    }
+  
+    .botao-nova-compra {
+      padding: 15px 50px;
+    }
+  }
